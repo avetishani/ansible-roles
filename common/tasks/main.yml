@@ -1,0 +1,22 @@
+---
+# tasks file for common
+    - name: Disable SElinux 
+      selinux:
+        state: disabled
+
+    - name: make direcotry
+      file:
+        path: "/root/.ssh"
+        state: directory
+
+    - name: Copy pub key
+      copy: src=authorized_keys dest=/root/.ssh/ owner=root group=root
+
+    - name: Install vim 
+      yum: pkg=vim state=latest
+   
+    - name: Install Java & wget
+      yum: 
+        name: 
+          - wget
+          - java-1.8.0-openjdk

@@ -1,0 +1,4 @@
+---
+# vars file for nginx
+    confdir: /etc/nginx/vhosts
+    pubkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLOutI2tgc5GNjcbfJBGxjlfx4phLSfiX4aPcS+Er3s/o1qVaN0d+wJuKhOb0VhrZoPXGH2p97UAVybFeg00hzr38iw6t8LC+IoawthNAdZNlIfXOYlV5vzjqLI7bf1TUwyM1dzJHmxLV5nStCFZtLXJ41r/RQeOncUgCWk/zFrosH+2XeB4VtZ5sFoPr3FNVkz6POuET2UGuuwgiQbff5/Y1zziWFoOjV0CThcrtAEpQkXWY550cS05e5CGyBT9ycLjJsCHOzSZzi2fKSw4OVHEXbweDPZWmipYXgs5Yl7bvW/tg+n5f/Tk4lZet2r0x7TMzdhR+V4l4NKcKr3ij3 akhani@dp363
